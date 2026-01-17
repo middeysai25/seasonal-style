@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      margin: 0;
+      padding: 0;
+    }
+
+    .checkout-section {
+      max-width: 400px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .checkout-section h2 {
+      color: #d63384;
+    }
+
+    .pay-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background-color: #ff69b4;
+      color: white;
+      padding: 10px 20px;
+      margin: 10px 5px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+      width: 100%;
+    }
+
+    .pay-button img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .pay-button:hover {
+      background-color: #d63384;
+    }
+
+    .payment-form {
+      margin-top: 20px;
+      display: none;
+      text-align: left;
+    }
+
+    .payment-form label {
+      display: block;
+      margin: 10px 0 5px;
+      color: #555;
+    }
+
+    .payment-form input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+
+    .submit-btn {
+      width: 100%;
+      background-color: #28a745;
+    }
+  </style>
+</head>
+<body>
+  <section class="checkout-section">
+    <h2>Checkout</h2>
+    <p>Select Payment Method:</p>
+
+    <button class="pay-button" onclick="startPayment('phonepe')">
+      <img src="phonepay.jpg" alt="PhonePe Icon">
+      PhonePe
+    </button>
+
+    <button class="pay-button" onclick="startPayment('gpay')">
+      <img src="gpay.jpg" alt="Google Pay Icon">
+      Google Pay
+    </button>
+
+    <div id="paymentForm" class="payment-form">
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone" placeholder="Enter Phone Number">
+
+      <button onclick="sendOTP()">Send OTP</button>
+
+      <label for="otp">OTP</label>
+      <input type="text" id="otp" placeholder="Enter OTP">
+
+      <label for="upi">UPI ID</label>
+      <input type="text" id="upi" placeholder="Enter UPI ID">
+
+      <button class="submit-btn">Proceed to Pay</button>
+    </div>
+  </section>
+
+  <script>
+    function startPayment(app) {
+      document.getElementById('paymentForm').style.display = 'block';
+    }
+
+    function sendOTP() {
+      alert("OTP sent to your phone number!");
+    }
+  </script>
+</body>
+</html>

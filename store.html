@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Seasonal Styles</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+      </ul>
+    </nav>
+    <div class="cart-icon">
+      <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+      <span class="cart-count">0</span>
+    </div>
+  </header>
+
+  <div class="product-header">
+    <select id="categoryFilter">
+      <option value="All">All Categories</option>
+      <option value="Men">Men</option>
+      <option value="Women">Women</option>
+      <option value="Kids">Kids</option>
+    </select>
+    <select id="seasonFilter">
+      <option value="All">All Seasons</option>
+      <option value="Spring">Spring</option>
+      <option value="Summer">Summer</option>
+      <option value="Autumn">Autumn</option>
+      <option value="Winter">Winter</option>
+    </select>
+    <select id="priceFilter">
+      <option value="All">All Prices</option>
+      <option value="below500">Below ₹500</option>
+      <option value="500to1000">₹500 - ₹1000</option>
+      <option value="above1000">Above ₹1000</option>
+    </select>
+  </div>
+
+  <main class="product-grid" id="productGrid">
+    <!-- Product items will be populated dynamically -->
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
