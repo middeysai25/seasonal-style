@@ -1,11 +1,11 @@
-🛒 Seasonal Style  Website (HTML, CSS, JavaScript)
-
+**🛒 Seasonal Style  Website (HTML, CSS, JavaScript)
+**
 A modern, responsive E-Commerce Frontend Website built using HTML, CSS, and JavaScript.
 This project includes essential shopping features like Product Listing, Cart, Wishlist, and UPI Payment UI (PhonePe & Google Pay).
 
 ⚡ Pure Frontend Project – No backend / database used.
 
-✨ Features
+**✨ Features**
 
 🛍️ Product Listing Page
 
@@ -23,7 +23,7 @@ This project includes essential shopping features like Product Listing, Cart, Wi
 
 🎨 Clean & Modern UI
 
-🛠️ Technologies Used
+**🛠️ Technologies Used**
 
 HTML5 – Structure
 
@@ -31,8 +31,8 @@ CSS3 – Styling & Responsive Design
 
 JavaScript (ES6) – Logic & Interactivity
 
-Folder Structure :
-📦 ecommerce-frontend
+**Folder Structure :**
+📦 Seasonal Style 
  ┣ 📂 assets
  ┃ ┣ 📂 images
  ┃ ┗ 📂 icons
@@ -46,7 +46,7 @@ Folder Structure :
  ┣ 📄 payment.html
  ┗ 📄 README.md
 
- 🖥️ Pages Overview
+ **🖥️ Pages Overview**
 🏠 Home / Products Page
 
 Displays all products
@@ -55,7 +55,7 @@ Add to Cart
 
 Add to Wishlist
 
-🛒 Cart Page
+**🛒 Cart Page**
 
 View selected products
 
@@ -65,13 +65,13 @@ Remove items
 
 Total price calculation
 
-❤️ Wishlist Page
+**❤️ Wishlist Page**
 
 Save favorite products
 
 Move to cart
 
-💳 Payment Page
+**💳 Payment Page**
 
 PhonePe UI
 
@@ -79,7 +79,7 @@ Google Pay UI
 
 Order confirmation (Frontend only)
 
-⚙️ How It Works
+**⚙️ How It Works**
 
 Products are managed using JavaScript arrays
 
@@ -89,7 +89,7 @@ Payment flow is UI simulation only
 
 No backend / API used
 
-🚀 How to Run the Project
+**🚀 How to Run the Project**
 
 Download or Clone the Repository
 
@@ -100,7 +100,7 @@ Open index.html in your browser
 
 Explore products, cart, wishlist & payment 
 
-🎯 Key Highlights
+**🎯 Key Highlights**
 
 Beginner-friendly Frontend Project
 
@@ -112,7 +112,7 @@ Clean folder structure
 
 Resume & Internship Ready
 
-📌 Future Improvements
+**📌 Future Improvements**
 
 Backend Integration
 
@@ -124,11 +124,11 @@ Admin Dashboard
 
 Product Search & Filters
 
-🙌 Author
+**🙌 Author**
 
 Leela Sai
 Frontend Developer | Web Enthusiast
 
-⭐ Support
+**Support **
 
 If you like this project, don't forget to Star ⭐ the Repository!
